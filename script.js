@@ -1,6 +1,8 @@
 VanillaTilt.init(document.querySelectorAll('.sci li a'), {
-  max: 25,
+  max: 30,
   speed: 400,
+  glare: true,
+  'max-glare': 1,
 });
 
 let list = document.querySelectorAll('.sci li'),
