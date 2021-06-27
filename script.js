@@ -1,3 +1,8 @@
+VanillaTilt.init(document.querySelectorAll('.sci li a'), {
+  max: 25,
+  speed: 400,
+});
+
 let list = document.querySelectorAll('.sci li'),
   bg = document.querySelector('.socialMedia');
 list.forEach((elements) => {
